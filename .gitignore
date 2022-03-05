@@ -36,5 +36,5 @@ out/
 ### VS Code ###
 .vscode/
 
-### Naver Api ###
+### Naver Api Client Secret 업로드 방지 ###
 *.yaml
