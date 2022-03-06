@@ -15,7 +15,6 @@ public class SearchLocalRes {
     private int total;
     private int start;
     private int display;
-    private String category;
     private List<SearchLocalItem> items;
 
     @Data
@@ -23,6 +22,7 @@ public class SearchLocalRes {
     @AllArgsConstructor
     public static class SearchLocalItem {
         private String title;
+        private String category;
         private String link;
         private String description;
         private String telephone;

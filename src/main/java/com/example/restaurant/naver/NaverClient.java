@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import javax.swing.text.html.parser.Entity;
+
 @Component
 public class NaverClient {
 
