@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,6 +21,6 @@ public class WishListDto {
     private String imageLink;
     private boolean isVisit;
     private int visitCount;
-    private LocalDateTime lastVisitDate;
+    private LocalDate lastVisitDate;
 
 }
